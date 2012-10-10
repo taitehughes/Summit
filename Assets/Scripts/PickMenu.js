@@ -74,6 +74,8 @@ function checkHeight()
 		showMenu = false;
 		canEnable = false;
 		
-		Debug.Log("Max tower height reached, no more blocks can be placed");
+		GameObject.FindGameObjectWithTag("MainCamera").GetComponent(BasicCameraController).finishedBuilding();
+		
+		Debug.Log("Max tower height reached, no more blocks can be placed.\n Start stage 2");
 	}
 }
