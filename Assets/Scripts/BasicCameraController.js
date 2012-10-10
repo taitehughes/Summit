@@ -16,20 +16,17 @@ function Update () {
 	}
 	else if (this.transform.position != stage2Camera)
 	{
-		this.transform.position -= (this.transform.position - stage2Camera) * 0.01;
-		
-		if (Vector3.Magnitude(this.transform.position - stage2Camera) < 0.20)
-		{
-			this.transform.position = stage2Camera;
-		}
+		this.transform.position -= (this.transform.position - stage2Camera) * 0.025;
 		
 		if (transform.eulerAngles.y <= 179 || transform.eulerAngles.y >= 181)
 		{
 			transform.eulerAngles.y += 1;
 		}
-		else
+		else if (Vector3.Magnitude(this.transform.position - stage2Camera) < 0.20)
 		{
 			transform.eulerAngles.y = 180;
+			
+			this.transform.position = stage2Camera;
 		}
 	}
 }
