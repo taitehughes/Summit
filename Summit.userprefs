@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PickMenu.js">
+    <Files>
+      <File FileName="Assets\Scripts\ArrowController.js" Line="8" Column="32" />
+      <File FileName="Assets\Scripts\BasicCameraController.js" Line="8" Column="92" />
+      <File FileName="Assets\Scripts\PickMenu.js" Line="67" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
