@@ -1,6 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PickMenu.js">
+    <Files>
+      <File FileName="Assets/Scripts/CannonballController.js" Line="14" Column="10" />
+      <File FileName="Assets/Scripts/CannonController.js" Line="15" Column="76" />
+      <File FileName="Assets/Scripts/PickMenu.js" Line="72" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
