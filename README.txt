@@ -3,3 +3,4 @@ This is a tower building game where two players face off against customly built 
 Taite Hughes - BEST PROGRAMMER EVA!
 Austin Blakeslee - Programmer
 Zach Thacker - Producer
+Lou Manco - Audio Grandmaster, Scenario and Programming Support
