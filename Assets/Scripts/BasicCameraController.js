@@ -26,6 +26,9 @@ function Update () {
 			transform.eulerAngles.y = 180;
 			
 			this.transform.position = stage2Camera;
+			
+			GameObject.FindGameObjectWithTag("GUI Instructions").guiText.text = "Press the Left Control key to fire all Cannons.\n Use the P key to Pause and Reset the Demo.";
+
 		}
 	}
 

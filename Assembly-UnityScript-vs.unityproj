@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\BasicCameraController.js" />
      <Compile Include="Assets\Scripts\CannonController.js" />
      <Compile Include="Assets\Scripts\CannonballController.js" />
+     <Compile Include="Assets\Scripts\Health.js" />
      <Compile Include="Assets\Scripts\PickMenu.js" />
      <Compile Include="Assets\Scripts\TowerSpawn.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />

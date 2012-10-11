@@ -1,11 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CannonballController.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Health.js">
     <Files>
-      <File FileName="Assets\Scripts\CannonballController.js" Line="14" Column="27" />
+      <File FileName="Assets\Scripts\PickMenu.js" Line="45" Column="35" />
+      <File FileName="Assets\Scripts\CannonballController.js" Line="19" Column="5" />
       <File FileName="Assets\Scripts\CannonController.js" Line="21" Column="6" />
-      <File FileName="Assets\Scripts\PickMenu.js" Line="75" Column="1" />
-      <File FileName="Assets\Scripts\BasicCameraController.js" Line="4" Column="1" />
+      <File FileName="Assets\Scripts\BasicCameraController.js" Line="30" Column="122" />
+      <File FileName="Assets\Scripts\Health.js" Line="12" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

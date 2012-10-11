@@ -11,6 +11,13 @@ private var counter : int = 0;
 var maxHeight : int = 6;
 private var canEnable : boolean = true;
 
+
+var Steel : boolean = true;
+var Brick : boolean = true;
+var brickCounter : int = 0;
+var Cannon : boolean = true;
+var canCounter : int = 0;
+
 function Start () {
 	showMenu = false;
 	pause = false;
@@ -35,6 +42,7 @@ function OnGUI() {
 	if (canEnable && !showMenu && Input.GetKeyDown(KeyCode.Space))
 	{
 		showMenu = true;
+		GameObject.FindGameObjectWithTag("GUI Instructions").guiText.text = "Select Tower segments.\nYou may only select 1 Steel, 2 Cannons, and 2 Bricks.\nMax tower height is 6";
 	}
 
 	if(!pause) {
@@ -44,20 +52,34 @@ function OnGUI() {
         	//showMenu = false;
         	SpawnFloor();
         }
-    	else if (GUI.Button(Rect(Screen.width*0.45,Screen.height*0.7,Screen.width*0.1,Screen.height*0.1),"Cannon")) {
+    	else if (Cannon && GUI.Button(Rect(Screen.width*0.45,Screen.height*0.7,Screen.width*0.1,Screen.height*0.1),"Cannon")) {
         	type = "cannon";
         	//showMenu = false;
         	SpawnFloor();
+        	
+        	canCounter++;
+        	
+        	if (canCounter >= 2)
+        	{
+        		Cannon = false;
+        	}
         }
-        else if (GUI.Button(Rect(Screen.width*0.45,Screen.height*0.5,Screen.width*0.1,Screen.height*0.1),"Brick")) {
+        else if (Brick && GUI.Button(Rect(Screen.width*0.45,Screen.height*0.5,Screen.width*0.1,Screen.height*0.1),"Brick")) {
         	type = "brick";
         	//showMenu = false;
         	SpawnFloor();
+        	brickCounter++;
+        	
+        	if (brickCounter >= 2)
+        	{
+        		Brick = false;
+        	}
         }
-    	else if (GUI.Button(Rect(Screen.width*0.65,Screen.height*0.5,Screen.width*0.1,Screen.height*0.1),"Steel")) {
+    	else if (Steel && GUI.Button(Rect(Screen.width*0.65,Screen.height*0.5,Screen.width*0.1,Screen.height*0.1),"Steel")) {
         	type = "steel";
         	//showMenu = false;
         	SpawnFloor();
+        	Steel = false;
         }
     }
     }
