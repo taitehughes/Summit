@@ -67,6 +67,7 @@ function OnGUI() {
         }
     	else if (GUI.Button(Rect(Screen.width*0.45,Screen.height*0.5,Screen.width*0.1,Screen.height*0.1),"Restart")) {
         	pause = false;
+        	Time.timeScale = 1.0;
         	Application.LoadLevel("Test");
         }
     	else if (GUI.Button(Rect(Screen.width*0.65,Screen.height*0.5,Screen.width*0.1,Screen.height*0.1),"Quit")) {

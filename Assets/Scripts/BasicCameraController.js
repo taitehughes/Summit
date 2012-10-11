@@ -1,7 +1,6 @@
 #pragma strict
 
 var buildStage : boolean = true;
-
 var stage2Camera : Vector3;
 
 function Start () {
@@ -29,6 +28,7 @@ function Update () {
 			this.transform.position = stage2Camera;
 		}
 	}
+
 }
 
 
